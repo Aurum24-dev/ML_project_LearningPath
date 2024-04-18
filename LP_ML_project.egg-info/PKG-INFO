@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: LP_ML_project
+Version: 0.0.1
+Summary: An end-to-end ml project about Vehicle price prediction
+Author: Sonali Basak
+Author-email: sonali62442@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: flask
+Requires-Dist: typing
+Requires-Dist: scikit-learn
+Requires-Dist: pickles
+Requires-Dist: streamlit

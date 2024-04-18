@@ -1,0 +1,24 @@
+[ 2024-04-17 12:06:05,236 ] 21 root - INFO - Entered the data ingestion method or component
+[ 2024-04-17 12:06:05,252 ] 24 root - INFO - Read the dataset as dataframe
+[ 2024-04-17 12:06:05,272 ] 30 root - INFO - Train test split initiated
+[ 2024-04-17 12:06:05,287 ] 37 root - INFO - Ingestion of the data is completed
+[ 2024-04-17 12:06:05,303 ] 70 root - INFO - Read train and test data completed
+[ 2024-04-17 12:06:05,303 ] 71 root - INFO - Train Dataframe Head : 
+       Status  Lifeexpectancy  AdultMortality  infantdeaths  Alcohol  percentageexpenditure  Measles   BMI  under-fivedeaths  Polio  Totalexpenditure  Diphtheria  HIV/AIDS           GDP  Population  thinness1-19years  thinness5-9years  Incomecompositionofresources  Schooling
+0  Developing            73.4           158.0             9     4.13              14.588740        2  44.3                10    9.0              3.86        89.0       0.3    193.741571  12852755.0                1.6               1.5                         0.670       12.4
+1  Developing            50.0           284.0            58     0.10              13.357838    21319  13.6               128   41.0              6.10        34.0       1.5    158.455972  11352973.0               12.8              12.9                         0.253        2.8
+2  Developing            65.3            27.0             0     0.48              18.216614        0  75.2                 0   95.0              1.52        91.0       0.1   1493.165100     12652.0                0.1               0.1                         0.584       11.9
+3  Developing            59.5           272.0             1     0.08              19.717410        0  17.6                 2    7.0              2.86         7.0       0.1    395.931936    555888.0                7.8               7.8                         0.000        8.5
+4   Developed            81.0            79.0             2    11.96            3715.370095       26  59.9                 2   97.0              8.50        97.0       0.1  24918.645840  42921895.0                0.6               0.5                         0.833       15.6
+[ 2024-04-17 12:06:05,303 ] 72 root - INFO - Test Dataframe Head  : 
+       Status  Lifeexpectancy  AdultMortality  infantdeaths  Alcohol  percentageexpenditure  Measles   BMI  under-fivedeaths  Polio  Totalexpenditure  Diphtheria  HIV/AIDS          GDP  Population  thinness1-19years  thinness5-9years  Incomecompositionofresources  Schooling
+0  Developing            65.9           183.0            10     0.38               2.626235        3  34.1                12   76.0              5.70        83.0       0.3    44.287267      7557.0                3.8               3.9                         0.579       10.7
+1  Developing            51.4           394.0            62     3.91               4.720594    14629   2.9               100   57.0              4.48        62.0       7.7    68.414399  15274234.0                7.7               7.8                         0.433        6.9
+2  Developing            72.0            18.0             0     3.00              21.254300        0  65.6                 0   94.0              5.31        95.0       0.1   154.689230     17461.0                0.2               0.2                         0.640       12.1
+3  Developing            52.4           323.0            49     4.54              56.961081       77  13.7                91   83.0              6.45        79.0       2.5   371.323865    133569.0                1.5               1.1                         0.000        3.9
+4  Developing            68.3           196.0             0     4.79             219.023984        0   4.8                 0   91.0              3.98        91.0       0.3  3364.423711    247315.0                3.8               3.7                         0.668       11.7
+[ 2024-04-17 12:06:05,303 ] 74 root - INFO - Obtaining the preprocessing object
+[ 2024-04-17 12:06:05,303 ] 26 root - INFO - Data Transformation has been initiated
+[ 2024-04-17 12:06:05,303 ] 35 root - INFO - Pipeline Initiated
+[ 2024-04-17 12:06:05,303 ] 80 root - INFO - Splitting train data into dependent and independent features
+[ 2024-04-17 12:06:05,370 ] 86 root - INFO - Splitting test data into dependent and independent features
